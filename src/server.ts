@@ -56,7 +56,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
       
     } catch (error) {
     //  console.log(error);
-      return res.status(500)
+      return res.status(422)
       .send(error);
     }
    
